@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<title>SPIDYKOLI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap v4.6 links below -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <!-- External CSS link below -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Samarth portfolio</title>
 </head>
 <body>
- <div class="maindiv" id="main_div">
-		<div class="navigation_bar">
-				<!-- naviagtion code below -->
-				<nav class="navbar navbar-expand-lg ">
-  <a class="navbar-brand" href="#"><span class="myname">Samarth Koli</span></a>
+  <div class="maindiv" id="main_div">
+    <div class="navigation_bar">
+        <!-- naviagtion code below -->
+        <nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand" href="#"><span class="myname">Samarth<span><img src="https://cdn-icons-png.flaticon.com/512/1096/1096028.png" height="30px"> </span> </span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,26 +24,57 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><span class="navmenu">Home</span><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#home_sec"><span class="navmenu">Home</span><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><span class="navmenu">About</span></a>
+        <a class="nav-link" href="#about_sec"><span class="navmenu">About</span></a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#"><span class="navmenu">Skills</span></a>
+        <a class="nav-link" href="#skills_sec"><span class="navmenu">Skills</span></a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#"><span class="navmenu">Projects</span></a>
+        <a class="nav-link" href="#projects_sec"><span class="navmenu">Projects</span></a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#"><span class="navmenu">Contact</span></a>
+        <a class="nav-link" href="#contact_sec"><span class="navmenu">Contact</span></a>
       </li>
     </ul>
   </div>
 </nav>
+-
+    </div>
+    <!-- navigation code nends here -->
+    <div class="home sect" id="home_sec">
+        <div align="center">
+            <span>Hello</span><br>
+            <span>My name is </span><br>
+            <span class="myname homename">Samarth Koli</span><br>
+            <span>I am a <span id="designation">Full Stack Java Developer</span></span>
+        </div>
+    </div>
+    <div class="about sect" id="about_sec">
+        <div align="center">
+          <table class="aboutdata"  width="90%" height=350px>
+            <tr>
+              <td width="40%" align="center"><img class="myimg" src="ID.JPEG" height="200px"></td>
+              <td align="center" valign="top">
+                  <h2 class="section_head">About</h2>
+                  <p class="cobj">Seeking a challenging Full-Stack Developer position where I can leverage my strong Java and front-end development skills to design, develop, and implement high-quality web applications. Eager to contribute to a collaborative and innovative team environment where I can continuously learn and grow as a developer.</p>
 
-		</div>
-		<!-- navigation code nends here -->
-	</div>
+              </td>
+            </tr>
+          </table>        
+        </div> 
+    </div>
+    <div class="skills sect" id="skills_sec">
+      <div>skills sections</div> 
+    </div>
+    <div class="projects sect" id="projects_sec">
+      <div>projects sections</div> 
+    </div>
+    <div class="contact sect" id="contact_sec">
+      <div>contact sections</div> 
+    </div>
+  </div>
 </body>
 </html>

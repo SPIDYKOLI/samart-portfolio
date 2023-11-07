@@ -1,13 +1,15 @@
-{
-	background-image:linear-gradient(to right,#ff0000,#00802b,#00ff00); ;
-}
 *{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,#ff0000,#00802b,#00ff00);
+	background-image: linear-gradient(to right,#ff8000, #ffd11a,#ff8533);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 5;
 }
 .navmenu{
 	color: white;
@@ -22,6 +24,73 @@
 .myname{
 	font-size: 30px;
 	font-family: Arial Black;
-	color: goldenrod;
-	text-shadow: 0px 0px 3px blueviolet;
+	color: red;
+	text-shadow: 0px 0px 3px white;
+	font-variant: small-caps;
+}
+.sect
+{
+	border: 2px solid black;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sect div
+{
+	font-size: 50px;
+}
+html{
+	scroll-behavior:smooth;
+}
+.home{
+	background-color: #ff751a;
+height: 600px;
+}
+.homename{
+	font-size: 80px;
+}
+#designation
+{
+	font-size: 50px;
+	color: orangered;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+.home div
+{
+	font-weight: bolder;
+
+}
+.about{
+	background-color:  #cc5200;
+	height: 400px;
+}
+.aboutdata
+{
+	margin-top: 25px;
+}
+.cobj
+{
+	font-size: 25px;
+	text-align: justify;
+	text-indent: 20%;
+	color: grey;
+}
+.section_head
+{
+	font-size: 50px;
+	color: royalblue;
+	font-variant: small-caps;
+	font-family: Arial Black;
+}
+.myimg{
+	transition-duration: 1.5s;
+	border-radius: 20px;
+}
+.myimg:hover
+{
+	transform: scale(1.4);
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px royalblue;
 }
