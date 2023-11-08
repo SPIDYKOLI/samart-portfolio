@@ -27,7 +27,7 @@
 .myname{
 	font-size: 30px;
 	font-family: Arial Black;
-	color:palevioletred;
+	color:#0059b3;
 	text-shadow: 0px 0px 3px black;
 	font-variant: small-caps;
 }
@@ -117,7 +117,8 @@
 	font-size: 20px ;
 }
 .project_cards{
-	width: 90%;
+	width: 60%;
+	height: 80%;
 }
 .card{
 	transition-duration: 1s;
@@ -126,5 +127,6 @@
 	box-shadow: 0 0 20px black;
 }
 .projects{
-	height: 600px;
+	height: 700px;
+	background-color:#80bfff;
 }
