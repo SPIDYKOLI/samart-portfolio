@@ -5,7 +5,8 @@
 	scroll-behavior: smooth;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);
+/*	background-image: linear-gradient(to left ,#6b6b47,#006666, #999966);*/
+    background-color: #1ab2ff ;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -14,7 +15,7 @@
 	border:  5px;
 }
 .navmenu{
-	color: green;
+	color: whitesmoke;
 	font-size:20px;
 	font-weight: bolder;
 	transition-duration: 0.5s;
@@ -26,7 +27,7 @@
 .myname{
 	font-size: 30px;
 	font-family: Arial Black;
-	color: #b366ff;
+	color:palevioletred;
 	text-shadow: 0px 0px 3px black;
 	font-variant: small-caps;
 }
@@ -47,8 +48,9 @@
 	
 }
 .home{
-	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);;
-height: 600px;
+/*	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);*/
+    background-color: #cceeff;
+    height: 600px;
 }
 .homename{
 	font-size: 80px;
@@ -56,7 +58,7 @@ height: 600px;
 #designation
 {
 	font-size: 50px;
-	color: grey;
+	color: red;
 	font-variant: small-caps;
 	font-weight: bolder;
 }
@@ -66,8 +68,10 @@ height: 600px;
 
 }
 .about{
-	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);
+/*	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);*/
+    background-color: #b3e6ff;
 	height: 400px;
+	position:;
 }
 .aboutdata
 {
@@ -89,11 +93,38 @@ height: 600px;
 }
 .myimg{
 	transition-duration: 1.5s;
-	border-radius: 20px;
+	border-radius: 15px;
+	margin-bottom: 20%;
+	box-shadow: black;
 }
 .myimg:hover
 {
 	transform: scale(1.4);
 	border-radius: 50px;
 	box-shadow: 0px 0px 20px royalblue;
+}
+.skills{
+	background-color:#00e6e6;
+}
+.skillset  tr td ul li{
+	margin-top: 25px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: red;
+}
+.card-text
+{
+	font-size: 20px ;
+}
+.project_cards{
+	width: 90%;
+}
+.card{
+	transition-duration: 1s;
+}
+.card:hover{
+	box-shadow: 0 0 20px black;
+}
+.projects{
+	height: 600px;
 }

@@ -9,6 +9,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   <!-- External CSS link below -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- link from aos github -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Samarth portfolio</title>
 </head>
 <body>
@@ -54,7 +56,7 @@
     </div>
     <div class="about sect" id="about_sec">
         <div align="center">
-          <table class="aboutdata"  width="90%" height=350px>
+          <table class="aboutdata"  width="90%" height="350px">
             <tr>
               <td width="40%" align="center"><img class="myimg" src="ID.JPEG" height="200px"></td>
               <td align="center" valign="top">
@@ -66,15 +68,78 @@
           </table>        
         </div> 
     </div>
-    <div class="skills sect" id="skills_sec">
-      <div>skills sections</div> 
+     <div class="skills sect" id="skills_sec">
+        <div class="skill_heading" align="center">
+          <h1 class="section_head" >Skills</h1>
+          <table  width="1200px" height="300px" >
+              <tr class="skillset">
+                <td valign="top">
+                  <ul type="none">
+                    <li><img src="https://e7.pngegg.com/pngimages/509/412/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-table-table-furniture-text-thumbnail.png" height="30px">  Oracle SQl</li>
+                    <li><img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" height="30px"> HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap </li>
+                    <li>JavaScript</li>
+                  </ul>
+                </td>
+                <td valign="top">
+                  <ul type="none">
+                    <li>React JS</li>
+                  <li>XML</li>
+                  <li>JSON</li>
+                  <li>MongoDB</li>
+                  </ul>
+                </td>
+              </tr>
+          </table>
+        </div>
     </div>
     <div class="projects sect" id="projects_sec">
-      <div>projects sections</div> 
+      <div class="project" align="center">
+        <h1  class="section_head" >Projects</h1>
+        <div class="project_cards">
+                              <div class="card-deck">
+              <div class="card" data-aos="slide-right">
+                <img src="https://cdn-icons-png.flaticon.com/512/2344/2344132.png" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                  <h5 class="card-title">Calculator</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              <div class="card" data-aos="slide-down">
+                <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                  <h5 class="card-title">Weather App</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  
+                </div>
+              </div>
+              <div class="card" data-aos="slide-left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2dx9SSpuAvjUVG2Nsn1bjcOVTOhMB9cygRm8RYnE&s" class="card-img-top" alt="..." height="250px" style="padding: 20px;">
+                <div class="card-body">
+                  <h5 class="card-title">Calendar</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- project cards ends here -->
+      </div> 
     </div>
     <div class="contact sect" id="contact_sec">
       <div>contact sections</div> 
     </div>
   </div>
+  <!-- aos script tag -->
+  <div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+       duration:1500
+    });
+  </script>
+  </div>
 </body>
 </html>
+  
