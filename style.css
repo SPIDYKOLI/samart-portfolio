@@ -2,30 +2,32 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,#ff8000, #ffd11a,#ff8533);
+	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	z-index: 5;
+	border:  5px;
 }
 .navmenu{
-	color: white;
+	color: green;
 	font-size:20px;
 	font-weight: bolder;
 	transition-duration: 0.5s;
 
 }
 .navmenu:hover{
-	color: black;
+	color: lightblue;
 }
 .myname{
 	font-size: 30px;
 	font-family: Arial Black;
-	color: red;
-	text-shadow: 0px 0px 3px white;
+	color: #b366ff;
+	text-shadow: 0px 0px 3px black;
 	font-variant: small-caps;
 }
 .sect
@@ -40,11 +42,12 @@
 {
 	font-size: 50px;
 }
-html{
+*{
 	scroll-behavior:smooth;
+	
 }
 .home{
-	background-color: #ff751a;
+	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);;
 height: 600px;
 }
 .homename{
@@ -53,7 +56,7 @@ height: 600px;
 #designation
 {
 	font-size: 50px;
-	color: orangered;
+	color: grey;
 	font-variant: small-caps;
 	font-weight: bolder;
 }
@@ -63,7 +66,7 @@ height: 600px;
 
 }
 .about{
-	background-color:  #cc5200;
+	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);
 	height: 400px;
 }
 .aboutdata
