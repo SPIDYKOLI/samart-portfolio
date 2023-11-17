@@ -1,132 +1,142 @@
 *{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 .navigation_bar{
-/*	background-image: linear-gradient(to left ,#6b6b47,#006666, #999966);*/
-    background-color: #1ab2ff ;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	z-index: 5;
-	border:  5px;
+  background-image: linear-gradient(to right,#a2cae8,#7dbae8,#4781ad);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
 }
 .navmenu{
-	color: whitesmoke;
-	font-size:20px;
-	font-weight: bolder;
-	transition-duration: 0.5s;
+  color: white;
+  font-size:20px;
+  font-weight: bolder;
+  transition-duration: 0.5s;
+
 
 }
 .navmenu:hover{
-	color: lightblue;
+  color: black;
 }
 .myname{
-	font-size: 30px;
-	font-family: Arial Black;
-	color:#0059b3;
-	text-shadow: 0px 0px 3px black;
-	font-variant: small-caps;
+  font-size: 30px;
+/*  as*/
+  font-family: Arial Black;
+  color: royalblue;
+  text-shadow: 0px 0px 3px white;
+  font-variant: small-caps;
+  text-decoration: underline solid royalblue;
 }
 .sect
 {
-	border: 2px solid black;
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+/*  border: 2px solid black;*/
+  height: 500px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
 }
 .sect div
 {
-	font-size: 50px;
+  font-size: 50px;
 }
-*{
-	scroll-behavior:smooth;
-	
+html{
+  scroll-behavior: smooth;
 }
 .home{
-/*	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);*/
-    background-color: #cceeff;
-    height: 600px;
+  margin-top: 100px;
+  height: 400px;
 }
 .homename{
-	font-size: 80px;
+  font-size: 80px;
 }
 #designation
 {
-	font-size: 50px;
-	color: red;
-	font-variant: small-caps;
-	font-weight: bolder;
+  font-size: 50px;
+  color: orangered;
+  font-variant: small-caps;
+  font-weight: bolder;
 }
 .home div
 {
-	font-weight: bolder;
-
+  font-weight: bolder;
 }
 .about{
-/*	background-image: linear-gradient(to right, #004080, #cce6ff, #4da6ff);*/
-    background-color: #b3e6ff;
-	height: 400px;
-	position:;
+  background-color: #dae0da;
+  height: 400px;
 }
 .aboutdata
 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 .cobj
 {
-	font-size: 25px;
-	text-align: justify;
-	text-indent: 20%;
-	color: grey;
+  font-size: 25px;
+  text-align: justify;
+  text-indent: 20%;
+  color: grey;
 }
 .section_head
 {
-	font-size: 50px;
-	color: royalblue;
-	font-variant: small-caps;
-	font-family: Arial Black;
+  font-size: 50px;
+  color: royalblue;
+  font-variant: small-caps;
+  font-family: Arial Black;
 }
 .myimg{
-	transition-duration: 1.5s;
-	border-radius: 15px;
-	margin-bottom: 20%;
-	box-shadow: black;
+  transition-duration: 1.5s;
 }
 .myimg:hover
 {
-	transform: scale(1.4);
-	border-radius: 50px;
-	box-shadow: 0px 0px 20px royalblue;
+  transform: scale(1.4);
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px royalblue;
 }
 .skills{
-	background-color:#00e6e6;
+/*  background-color: lightgrey;*/
 }
-.skillset  tr td ul li{
-	margin-top: 25px;
-	font-weight: bolder;
-	font-size: 30px;
-	color: red;
+.skillset  td ul li{
+  margin-top: 25px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: red;
 }
 .card-text
 {
-	font-size: 20px ;
+  font-size: 20px ;
 }
 .project_cards{
-	width: 60%;
-	height: 80%;
+  width: 90%;
 }
 .card{
-	transition-duration: 1s;
+  transition-duration: 1s;
 }
 .card:hover{
-	box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px black;
 }
 .projects{
-	height: 700px;
-	background-color:#80bfff;
+  height: 600px;
+}
+.cnt_form{
+  padding: 25px;
+  font-size: 15px;
+  color: black;
+}
+.form-group{
+  font-size: 25px !important;
+  font-weight: bolder;
+}
+.contact{
+  background-color: #dae0da;
+}
+.footer{
+  background-color: grey;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
 }
